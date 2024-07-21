@@ -1,0 +1,625 @@
+/* try */
+
+.carousel-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.carousel-image2 {
+  width: 100%;
+  height: 100vh;
+  /* background-position:50% 50%; */
+  object-position: 50% 50%;
+
+  object-fit: cover;
+}
+.carousel-image3 {
+  width: 100%;
+  height: 100vh;
+  object-position: 0% 100%;
+
+  object-fit: cover;
+}
+.navbar-brand {
+  margin-left: 80px;
+}
+.container-fluid {
+  margin: 10px;
+}
+
+/* try */
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  /* font-size:120px; */
+  color: white;
+}
+.Head1 {
+  padding-top: 20px;
+}
+
+h4 {
+  font-family: "DM Serif Display", serif;
+  font-family: "Lobster", cursive;
+  /* font-size:5px; */
+  font-weight: 50;
+}
+h6 {
+  font-family: "Pacifico", cursive;
+
+  /* font-size:10px; */
+  text-align: center;
+}
+
+.Head {
+  height: 60px;
+  width: 50px;
+  z-index: 100;
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  gap: 40px;
+
+  position: fixed;
+}
+
+.firstT {
+  background: url("./firstSlide.jpg") no-repeat center center;
+  background-size: cover;
+
+  height: 100vh;
+  width: 100%;
+}
+.secondT {
+  background: url("./secondSlide.jpeg") no-repeat center center;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+.thirdT {
+  background: url("./thirdSlide.png") no-repeat center center;
+  background-size: cover;
+  background-position-y: 100%;
+  height: 100vh;
+  width: 100%;
+}
+.pre {
+  background: white url("./Rocket.gif") no-repeat center;
+
+  margin-right: 20px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 200;
+}
+
+.Name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 500px;
+  text-align: right;
+  margin-top: 500px;
+  width: 100%;
+  margin-right: 100px;
+}
+.caro {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  border: 15px;
+  margin-right: 5px;
+}
+/* Additional custom */
+.navbar {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.gridd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  border: 10px solid white;
+}
+
+.one {
+  background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b3f3869f6db4ed16c57_desk1.jpeg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.four {
+  background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b56b9c6422c42122a2b_desk3.jpeg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#moveleft {
+  font-size: 40px;
+  font-weight: 500;
+}
+.two {
+  background-image: url(" https://img.freepik.com/free-photo/grey-gradient-abstract_176532-7758.jpg?w=2000");
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.three {
+  background-image: url(" https://img.freepik.com/free-photo/grey-gradient-abstract_176532-7758.jpg?w=2000");
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.write {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.btn1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.Section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 100vw;
+}
+.section2-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.section2-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.Section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px;
+}
+.section3-1 {
+  background-image: url("https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55290b76b9c6422c42122a30_desk2.jpeg    ");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+}
+
+.section3-2 {
+  display: flex;
+  background-image: url("  https://img.freepik.com/free-photo/grey-gradient-abstract_176532-7758.jpg?w=2000");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+.moveleft {
+  position: relative;
+  padding-right: 80px;
+  padding-left: 0px;
+}
+/* Section4 */
+
+.Section4 {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 15px;
+}
+.section4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  background-color: aliceblue;
+}
+.Section5 {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+p {
+  padding-top: 20px;
+}
+.section5 {
+  text-align: left;
+  gap: 8px;
+}
+.firdt5 {
+  height: 350px;
+  width: 350px;
+}
+
+.section5 {
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hoverr {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.Section7 {
+  height: 600px;
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+.letterhead {
+  padding-top: 60px;
+  font-style: bold;
+  font-weight: 500;
+}
+
+.second5 img {
+  transition: opacity 0.3s ease;
+}
+
+.second5:hover img {
+  opacity: 0.7;
+}
+
+.third5 img {
+  transition: opacity 0.3s ease;
+}
+
+.third5:hover img {
+  opacity: 0.7;
+}
+
+.fourth5 img {
+  transition: opacity 0.3s ease;
+}
+
+.fourth5:hover img {
+  opacity: 0.7;
+}
+.fifth5 img {
+  transition: opacity 0.3s ease;
+}
+
+.fifth5:hover img {
+  opacity: 0.7;
+}
+.sixth5 img {
+  transition: opacity 0.3s ease;
+}
+
+.sixth5:hover img {
+  opacity: 0.7;
+}
+.seventh5 img {
+  transition: opacity 0.3s ease;
+}
+
+.seventh5:hover img {
+  opacity: 0.7;
+}
+.eigth5 img {
+  transition: opacity 0.3s ease;
+}
+
+.eigth5:hover img {
+  opacity: 0.7;
+}
+
+input {
+  height: 30px;
+  width: 800px;
+}
+.second-7 {
+  margin-top: 20px;
+  margin: 20px;
+}
+.third-7 {
+  margin: 20px;
+}
+.first-7 {
+  margin: 20px;
+}
+.submit7 {
+  margin: 20px;
+  border-radius: 30%;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.submit7:hover {
+  background-color: white;
+  color: black;
+}
+.Section7 {
+  position: relative;
+}
+.feed {
+  visibility: hidden;
+  color: red;
+  background-color: pink;
+  padding: 9px;
+}
+
+.feed-1 {
+  visibility: visible;
+}
+
+.foote {
+  cursor: text;
+}
+.a {
+  color: white;
+}
+/* last attempted */
+.Sectionlate {
+  height: 400px;
+  width: 100%;
+  padding-top: 60px;
+  text-align: center;
+}
+.channge {
+  text-align: center;
+  margin-top: 40px;
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+}
+.scl-2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  animation: inloop 5s ease-in-out infinite;
+}
+
+@keyframes inloop {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.scl-3 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  animation: outloop 5s ease-in-out infinite;
+}
+@keyframes outloop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* email */
+
+#invalidemail {
+  display: none;
+  /* visibility: visible; */
+}
+#incompleteemail {
+  display: none;
+}
+.incompleteemail2 {
+  display: block;
+}
+.invalidemail2 {
+  display: display;
+  /* visibility: visible; */
+}
+.emailedit {
+  background: aliceblue;
+  height: 20px;
+  border-radius: 30%;
+  width: 100%;
+}
+/* Responsiveness */
+
+@media (max-width: 1000px) {
+  .smx {
+    font-size: small;
+  }
+  .Name {
+    display: block;
+    padding-top: 35%;
+    padding-right: 20%;
+    padding-left: 40%;
+  }
+
+  .carousel-image3 {
+    max-width: 100%;
+    height: 100vh;
+    object-position: 50% 50%;
+  }
+
+  .gridd {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+  .pre {
+    height: 100vh;
+    width: 150px;
+    background-position: center;
+  }
+  .four {
+    height: 40vh;
+  }
+
+  .one {
+    display: none;
+  }
+  .Section2 {
+    flex-direction: column;
+  }
+
+  .section2-1 {
+    flex-direction: row;
+  }
+
+  /* Section 3 */
+  .Section3 {
+    display: block;
+  }
+  .section3-1 {
+    display: block;
+    height: 19rem;
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+  .section3-2 {
+    display: block;
+    width: 100vw;
+    height: 28rem;
+    font-size: small;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .Section4 {
+    display: block;
+  }
+  .section4 {
+    display: block;
+    height: 26rem;
+    width: 100vw;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .Sectionlate {
+    font-size: small;
+  }
+
+  .Section5 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: small;
+  }
+  .Section5 p {
+    display: none;
+  }
+  .Section5 img {
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.6;
+  }
+
+  .Section7 {
+    font-size: small;
+  }
+  .Section7 input {
+    width: 20rem;
+  }
+}
+
+/* end of 1000px */
+
+/* for font and images below 700 and above 400 */
+@media (min-width: 450px) and (max-width: 900px) {
+  .gridd p {
+    font-size: 2rem;
+  }
+  .gridd h1 {
+    font-size: 3rem;
+  }
+  .Section2 h2 {
+    font-size: 3rem;
+  }
+  .Section2 h6 {
+    font-size: 1.2rem;
+  }
+  .Section3 h1 {
+    font-size: 3rem;
+  }
+  .Section3 p {
+    font-size: 1rem;
+  }
+  .Section4 h1 {
+    font-size: 3rem;
+  }
+  .Section4 p {
+    font-size: 1.2rem;
+  }
+
+  .Section7 input {
+    width: 25rem;
+    height: 4rem;
+  }
+  .section5 img {
+    height: 15rem;
+    width: 14rem;
+  }
+
+  .emailedit {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1200px) {
+  .Section5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 10px;
+  }
+  .section5 img {
+    height: 11rem;
+    width: 9rem;
+  }
+  .section5 h5 {
+    font-size: smaller;
+  }
+}
